@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Form Example</title></head>
+<body>
+    <form action="Project2" method=get>
+    <table width="700">
+		<tr>
+		 <th>회 원 정 보 입 력
+		 </th>
+		</tr>
+		<tr>
+		 <td>
+		  <table width="100%" bgcolor="#000000" cellpadding="5" cellspacing="1" border="0">
+		  <tr>
+		   <td width="20%" bgcolor="#cacaca">
+		    &nbsp;아이디
+		   </td>
+		   <td width="*" bgcolor="#ffffff">
+		    <input type="text" name="id" />
+		   </td>
+		  </tr>
+		  
+		  <tr>
+		   <td width="20%" bgcolor="#cacaca">
+		    &nbsp;비밀번호
+		   </td>
+		   <td width="*" bgcolor="#ffffff">
+		    <input type="password" name="pwd" />
+		   </td>
+		  </tr>
+		  
+		  <tr>
+		   <td width="20%" bgcolor="#cacaca">
+		    &nbsp;이름
+		   </td>
+		   <td width="*" bgcolor="#ffffff">
+		    <input type="text" name="name" />
+		   </td>
+		  </tr>
+		  
+		  <tr>
+		   <td width="20%" bgcolor="#cacaca">
+		    &nbsp;전화번호
+		   </td>
+		   <td width="*" bgcolor="#ffffff">
+		    <input type="text" name="tel" />
+		   </td>
+		  </tr>
+		  
+		  <tr>
+		   <td width="20%" bgcolor="#cacaca">
+		    &nbsp;이메일
+		   </td>
+		   <td width="*" bgcolor="#ffffff">
+		    <input type="text" name="email" />
+		   </td>
+		  </tr>
+		  
+		  <tr>
+		   <td width="20%" bgcolor="#cacaca">
+		    &nbsp;학부
+		   </td>
+		   <td width="*" bgcolor="#ffffff">
+		    <select name="dept">
+                 <option value="Computer"> 컴퓨터공학부
+                 <option value="Communications"> 정보통신학부
+                 <option value="Contents"> IT콘텐츠학과
+                 <option value="Korean"> 국어국문학과
+              </select>
+		   </td>
+		  </tr>
+		  
+		  <tr>
+		   <td width="20%" bgcolor="#cacaca">
+		    &nbsp;성별
+		   </td>
+		   <td width="*" bgcolor="#ffffff">
+		    <input type="radio"  name="gender"  value="male" checked />남자 
+            <input type="radio"  name="gender"  value="female" />여자
+		   </td>
+		  </tr>
+		  
+		  <tr>
+		   <td width="20%" bgcolor="#cacaca">
+		    &nbsp;생월
+		   </td>
+		   <td width="*" bgcolor="#ffffff">
+		    <select name="birth">
+                 <option value="January"> 1월
+                 <option value="February"> 2월
+                 <option value="March"> 3월
+                 <option value="April"> 4월
+                 <option value="May"> 5월
+                 <option value="June"> 6월
+                 <option value="July"> 7월
+                 <option value="August"> 8월
+                 <option value="September"> 9월
+                 <option value="October"> 10월
+                 <option value="November"> 11월
+                 <option value="December"> 12월
+              </select>
+		   </td>
+		  </tr>
+		  
+		  <tr>
+		   <td width="20%" bgcolor="#cacaca">
+		    &nbsp;자기소개
+		   </td>
+		   <td width="*" bgcolor="#ffffff">
+		    <textarea cols="30" rows="10" name="introduction"></textarea>
+		   </td>
+		  </tr>
+		  
+		  <tr>
+		   <td>
+		    <input type="submit" name="submit" value="전송" />
+            <input type="reset"  name="reset"  value="지우기" />
+		    <input type="submit" name="submit" value="DB보기" />
+		    <input type="submit" name="submit" value="DB삭제" />
+		   </td>
+		  </tr>
+		  
+		  </table>		
+		 </td>
+		</tr>
+	</table>
+    </form>
+</body>
+</html>
